@@ -1,8 +1,3 @@
----
-layout: default
-title: "Manual de Ayuda - Librería JavaScript"
----
-
 # Bienvenido a la Librería JavaScript
 
 Este sitio contiene toda la documentación necesaria para utilizar y comprender las funciones de nuestra librería JavaScript. Aquí encontrarás manuales de usuario, manuales para desarrolladores y las últimas actualizaciones.
@@ -49,4 +44,4 @@ Esperamos que encuentres este manual útil y que te ayude a aprovechar al máxim
 
 ---
 
-&copy; 2024 Librería JavaScript. Todos los derechos reservados.
+&copy; 2024 SIGEA. Todos los derechos reservados.
