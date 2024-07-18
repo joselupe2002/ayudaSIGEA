@@ -1,49 +1,90 @@
-# Manual de Ayuda - Librería JavaScript
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual de Ayuda - Librería JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #0056b3;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .index-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .index-list li {
+      margin: 10px 0;
+    }
+    .index-list a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    .index-list a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Manual de Ayuda - Librería JavaScript</h1>
+    <p>Bienvenido al manual de ayuda de la librería JavaScript. Aquí encontrarás documentación detallada sobre las funciones disponibles, su uso y ejemplos prácticos. Este manual está diseñado para ayudarte a comprender y utilizar las funciones de manera eficiente.</p>
 
-Bienvenido al manual de ayuda de la librería JavaScript. Aquí encontrarás documentación detallada sobre las funciones disponibles, su uso y ejemplos prácticos. Este manual está diseñado para ayudarte a comprender y utilizar las funciones de manera eficiente.
+    <h2>Introducción</h2>
+    <p>Esta librería contiene una colección de funciones útiles para realizar diversas operaciones comunes en el desarrollo web. Desde manipulación de fechas hasta validación de datos, estas funciones están diseñadas para facilitar tu trabajo como desarrollador.</p>
 
-## Introducción
+    <h2>Índice de Contenidos</h2>
+    <ul class="index-list">
+      <li><a href="funcion_dameMesLetra.md">Función `dameMesLetra`</a></li>
+      <li><a href="funcion_dameConApostrofe.md">Función `dameConApostrofe`</a></li>
+      <li><a href="funcion_utf8Encode.md">Función `utf8Encode`</a></li>
+      <li><a href="funcion_utf8Decode.md">Función `utf8Decode`</a></li>
+      <li><a href="funcion_convertirDataTable.md">Función `convertirDataTable`</a></li>
+      <li><a href="funcion_validarHora.md">Función `validarHora`</a></li>
+      <li><a href="funcion_dameMinutos.md">Función `dameMinutos`</a></li>
+      <li><a href="funcion_decodificaHora.md">Función `decodificaHora`</a></li>
+      <li><a href="funcion_obtenerHorarios.md">Función `obtenerHorarios`</a></li>
+      <li><a href="funcion_validarCruce.md">Función `validarCruce`</a></li>
+      <li><a href="funcion_getEspacio.md">Función `getEspacio`</a></li>
+      <li><a href="funcion_validaCruceHorario.md">Función `validaCruceHorario`</a></li>
+      <li><a href="funcion_Burbuja.md">Función `Burbuja`</a></li>
+      <li><a href="funcion_BurbujaCadena.md">Función `BurbujaCadena`</a></li>
+      <li><a href="funcion_dameVentana.md">Función `dameVentana`</a></li>
+      <li><a href="funcion_escribeMoneda.md">Función `escribeMoneda`</a></li>
+      <li><a href="funcion_escribeEnteros.md">Función `escribeEnteros`</a></li>
+      <li><a href="funcion_dameVentanaTabla.md">Función `dameVentanaTabla`</a></li>
+      <li><a href="funcion_cargaRegistrosGen.md">Función `cargaRegistrosGen`</a></li>
+      <li><a href="funcion_eliminaRegistroGen.md">Función `eliminaRegistroGen`</a></li>
+    </ul>
 
-Esta librería contiene una colección de funciones útiles para realizar diversas operaciones comunes en el desarrollo web. Desde manipulación de fechas hasta validación de datos, estas funciones están diseñadas para facilitar tu trabajo como desarrollador.
+    <h2>Cómo Usar Este Manual</h2>
+    <p>Cada enlace en el índice te llevará a una página con detalles sobre una función específica. En cada página, encontrarás:</p>
+    <ul>
+      <li><strong>Descripción</strong>: Una breve descripción de lo que hace la función.</li>
+      <li><strong>Parámetros</strong>: Una lista de los parámetros que la función acepta, con una descripción de cada uno.</li>
+      <li><strong>Retorno</strong>: Lo que la función retorna, si aplica.</li>
+      <li><strong>Ejemplo de Uso</strong>: Un ejemplo práctico de cómo utilizar la función en tu código.</li>
+    </ul>
 
-## Índice de Contenidos
+    <p>Esperamos que encuentres este manual útil y que te ayude a aprovechar al máximo las funciones de nuestra librería JavaScript. Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.</p>
 
-A continuación, se presenta un índice de todas las funciones documentadas en este manual. Haz clic en los enlaces para acceder a la documentación detallada de cada función.
+    <hr>
 
-### Funciones
-
-1. [Función `dameMesLetra`](funcion_dameMesLetra.md)
-2. [Función `dameConApostrofe`](funcion_dameConApostrofe.md)
-3. [Función `utf8Encode`](funcion_utf8Encode.md)
-4. [Función `utf8Decode`](funcion_utf8Decode.md)
-5. [Función `convertirDataTable`](funcion_convertirDataTable.md)
-6. [Función `validarHora`](funcion_validarHora.md)
-7. [Función `dameMinutos`](funcion_dameMinutos.md)
-8. [Función `decodificaHora`](funcion_decodificaHora.md)
-9. [Función `obtenerHorarios`](funcion_obtenerHorarios.md)
-10. [Función `validarCruce`](funcion_validarCruce.md)
-11. [Función `getEspacio`](funcion_getEspacio.md)
-12. [Función `validaCruceHorario`](funcion_validaCruceHorario.md)
-13. [Función `Burbuja`](funcion_Burbuja.md)
-14. [Función `BurbujaCadena`](funcion_BurbujaCadena.md)
-15. [Función `dameVentana`](funcion_dameVentana.md)
-16. [Función `escribeMoneda`](funcion_escribeMoneda.md)
-17. [Función `escribeEnteros`](funcion_escribeEnteros.md)
-18. [Función `dameVentanaTabla`](funcion_dameVentanaTabla.md)
-19. [Función `cargaRegistrosGen`](funcion_cargaRegistrosGen.md)
-20. [Función `eliminaRegistroGen`](funcion_eliminaRegistroGen.md)
-
-## Cómo Usar Este Manual
-
-Cada enlace en el índice te llevará a una página con detalles sobre una función específica. En cada página, encontrarás:
-
-- **Descripción**: Una breve descripción de lo que hace la función.
-- **Parámetros**: Una lista de los parámetros que la función acepta, con una descripción de cada uno.
-- **Retorno**: Lo que la función retorna, si aplica.
-- **Ejemplo de Uso**: Un ejemplo práctico de cómo utilizar la función en tu código.
-
-Esperamos que encuentres este manual útil y que te ayude a aprovechar al máximo las funciones de nuestra librería JavaScript. Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.
-
----
-
-&copy; 2024 Librería JavaScript. Todos los derechos reservados.
+    <p>&copy; 2024 Librería JavaScript. Todos los derechos reservados.</p>
+  </div>
+</body>
+</html>
