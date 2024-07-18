@@ -47,7 +47,7 @@
     <h2>Opciones</h2>
     <ul class="welcome-list">
       <li><a href="manual_usuario.md">Manual de Usuario</a></li>
-      <li><a href="utileriasjs.md">Manual del Desarrollador</a></li>
+      <li><a href="utileriasjs.html">Manual del Desarrollador</a></li>
       <li><a href="actualizaciones.md">Actualizaciones</a></li>
     </ul>
 
