@@ -77,3 +77,23 @@ iframe {
   height: calc(100vh - 40px);
   border: none;
 }
+
+
+/* Estilos personalizados para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 12px;               /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;       /* Color de la pista de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;    /* Color de la barra de desplazamiento */
+  border-radius: 10px;       /* Redondear las esquinas de la barra de desplazamiento */
+  border: 3px solid #f1f1f1; /* Espacio alrededor de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;          /* Color de la barra de desplazamiento al pasar el cursor */
+}
