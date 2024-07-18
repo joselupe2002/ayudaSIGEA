@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -46,9 +45,9 @@
 
     <h2>Opciones</h2>
     <ul class="welcome-list">
-      <li><a href="manual_usuario.md">Manual de Usuario</a></li>
-      <li><a href="utileriasjs.html">Manual del Desarrollador</a></li>
-      <li><a href="actualizaciones.md">Actualizaciones</a></li>
+      <li><a href="manual_usuario.html">Manual de Usuario</a></li>
+      <li><a href="desarrollador.html">Manual del Desarrollador</a></li>
+      <li><a href="actualizaciones.html">Actualizaciones</a></li>
     </ul>
 
     <hr>
